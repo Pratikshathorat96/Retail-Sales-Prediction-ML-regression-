@@ -32,5 +32,6 @@ The model can be integrated into a retail store's inventory management and prici
 Conclusion
 The retail sales prediction model developed in this project provides an accurate and reliable way for retail businesses to forecast sales and optimize their operations. With further refinement and optimization, this model can be applied to other retail industries and businesses.
 
-Contributors
+Contribution
+
 Pratiksha Akshay Thorat
