@@ -6,6 +6,11 @@ This project aims to develop a machine learning model that predicts the sales of
 The model can be used by retail businesses to forecast sales, plan inventory, and optimize pricing strategies.
 
 Data
+
+My drive link to dataset - 
+1. Rossman store data  https://drive.google.com/file/d/1Z3SFeRqKGgV6Cg-aXFr2GhYC1sAwHyzg/view?usp=sharing
+2. store - https://drive.google.com/file/d/1Q7g0D1FquwKcaLpXd4gzecJ9Tt4Hz20T/view?usp=sharing
+
 The dataset used for this project is publicly available on Kaggle: https://www.kaggle.com/c/rossmann-store-sales/data.
 
 It contains historical sales data for 1,115 Rossmann stores across Germany, spanning from January 2013 to July 2015.
