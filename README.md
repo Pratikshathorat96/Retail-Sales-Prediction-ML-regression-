@@ -1,51 +1,55 @@
+![image](https://github.com/Pratikshathorat96/Retail-Sales-Prediction-ML-regression-/assets/120496034/25141b7f-06c7-4701-8560-6100e2d72512)
+
 # Retail-Sales-Prediction-ML-regression-
 Capstone project for Almabetter Retail Sales Prediction (ML regression)
 
-
+In this project, I have attempted to analyze the retail sales dataset of Rossmann stores and build a predictive model to forecast the sales of any Rossmann store for any date. No personal information of customer is provided in this dataset.
 This project aims to predict the daily sales of 1,115 Rossmann stores across Europe for up to six weeks in advance using machine learning regression models. The model takes into consideration various factors that influence store sales, such as promotions, competition, holidays, seasonality, and locality.
 
-Dataset
+# Dataset
 
 The dataset used for this project contains historical sales data for Rossmann stores, including 1,115 stores in 7 European countries. The dataset can be obtained from My drive link to dataset - 
 1. Rossman store data  https://drive.google.com/file/d/1Z3SFeRqKGgV6Cg-aXFr2GhYC1sAwHyzg/view?usp=sharing
 2. store - https://drive.google.com/file/d/1Q7g0D1FquwKcaLpXd4gzecJ9Tt4Hz20T/view?usp=sharing
 Kaggle: https://www.kaggle.com/c/rossmann-store-sales/data.
 
-Requirements
+# PROBLEM STATEMENT 
+Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied. Two datasets are given: one with store data and the other with historical sales data of 1115 stores from January 2013 to July 2015. The main objective is to understand existing data and after identifying the key factors that will predict future sales, a predictive model will be built for making forecasts about future sales.
 
-The following Python libraries are required to run the code in this project:
+# APPROACH 
+1. Understanding the business task.
+2. Import relevant libraries and define useful functions.
+3. Reading data from files given.
+4. Data pre-processing, which involves inspection of both datasets and data cleaning.
+5. Exploratory data analysis, to find which factors affect sales and how they affect it.
+6. Feature engineering, to prepare data for modelling.
+7. Modelling data and comparing the models to find out most suitable one for forecasting.
+8. Conclusion and recommendations to boost sales.
 
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-The code was developed and tested using Python 3.7.9 on a Windows 10 machine.
+# Exploratory Data Analysis
+The following insights were gained from EDA:
+* Mondays have most sales since most of the Sundays are closed.
+* Promotions seem to have a significant effect on sales but not for the number of customers. It is advisable to spend more on promos to get higher returns.
+* Store type b has higher sales and customers per store than other store types. More Store type b must be opened.
+* Assortment b is available only at store type b and it has more sales and customers than any other assortment. More assortment b must be stocked to meet the demands of customers.
+* Weekly sales and customers peak at the mid-December. It may be guessed that people buy drugs in advance just before the shops close for the holiday season.
 
-Files
-
-rossmann-store-sales-prediction.ipynb: Jupyter notebook containing the code for data exploration, preprocessing, feature engineering, model training and evaluation.
-rossmann-store-sales-prediction.html: HTML version of the Jupyter notebook for easier viewing.
-rossmann-store-sales-prediction.py: Python script containing the final version of the code.
-rossmann-store-sales-prediction-model.pkl: Pickled version of the trained machine learning model.
-
-Methodology
-
+  
+# Methodology
 The project follows the following steps:
+* Data exploration: Analysing the dataset and getting insights about the data.
+* Data preprocessing: Handling missing values and feature engineering.
+* Feature engineering: Creating new features that could impact the target variable.
+* Model selection: Testing different machine learning regression models.
+* Model training and evaluation: Training the selected model and evaluating its performance using cross-validation.
+* Hyperparameter tuning: Optimizing the model's hyperparameters.
+* Final model: Training the final model on the entire dataset.
+* Prediction: Using the final model to make sales predictions for the test set.
 
-Data exploration: Analysing the dataset and getting insights about the data.
-Data preprocessing: Handling missing values and feature engineering.
-Feature engineering: Creating new features that could impact the target variable.
-Model selection: Testing different machine learning regression models.
-Model training and evaluation: Training the selected model and evaluating its performance using cross-validation.
-Hyperparameter tuning: Optimizing the model's hyperparameters.
-Final model: Training the final model on the entire dataset.
-Prediction: Using the final model to make sales predictions for the test set.
-
-Conclusion
+# Conclusion
 
 The developed machine learning regression model can predict daily sales for up to six weeks in advance for Rossmann stores with a high level of accuracy. The model can help Rossmann store managers make informed decisions regarding inventory management, staffing, and promotional strategies, ultimately leading to increased sales and profitability for the business.
 
-Contribution
+# Contribution
 
 Pratiksha Akshay Thorat
